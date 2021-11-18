@@ -343,8 +343,7 @@ update_pc() {
 int main() {
   // Printing Student name and Student ID 
  printf("Student Name : Anubhuti Dayal \n"); 
- printf("Student ID  : 2824826 \n");  
- printf("Student Partner Name : Silpa Velaga \n"); 
+ printf("Student ID  : 2824826 \n");   
  printf("this is working fine for all operations\n\n\n\n\n\n"); 
 
  initialize();
