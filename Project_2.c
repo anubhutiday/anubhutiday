@@ -42,6 +42,7 @@ void initialize() {
   FILE *sourcefile;
   
  //printf("Memory Initializion started \n");
+ // Add your File Path
   sourcefile = fopen("/Users/mehulsrivastava/Desktop/Proj/memory.out", "rb");
   for (int i=0; i<256; i++) // skip data section
         fread(&memory[i], sizeof(int), 1, sourcefile);
